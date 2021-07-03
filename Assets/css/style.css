@@ -1,0 +1,158 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
+}
+
+.navbar {
+    background-color: #e83e8c;
+    height: 75px;
+}
+
+.menuMobile {
+    display: none !important;
+} @media (max-width: 991px) { 
+    .menuMobile {
+        display: block !important;
+        width: 80px;
+        height: 70px;
+        position: relative;
+        bottom: 70px;
+        left: 75%;
+        z-index: 9999 !important;
+    } }
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        position: relative;
+        max-width: 100%;
+    }
+}
+.navbar-brand img {
+    position: relative;
+    left: 55%;}
+    @media (max-width: 991px) {
+        #logo { 
+            position: relative;
+            left: 10%;} }
+
+.nav-link {
+    font-size: 16px;
+    padding: 0px 35px 0px 0px !important; /* -->¿cómo no usar !important?*/
+    color: white !important; /* -->¿cómo no usar !important?*/
+    position: relative;
+    right: 6vw;
+}
+
+.internalContent {
+    background-color: #e83e8c !important;
+}
+.internalContent h5 {
+    font-size: 16px !important; /*-->¿cómo no usar !important?*/
+}
+
+.internalContent a {
+    text-decoration: none;
+}
+
+.productos {
+    position: relative;
+} @media (max-width: 991px) { 
+    #productos {
+        display: block;
+        position: relative;
+        top: -60px !important;} }
+
+.container {
+    padding: 3em 5em !important;
+}
+@media (max-width: 991px) {
+    .container {
+        padding: 5px 25px !important;
+        margin-bottom: 40px !important;
+    } }
+
+h1 {
+    color: #707070;
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    padding-top: 1.2em;
+}
+@media (max-width: 991px) {
+    h1 {
+        color: #707070;
+        font-size: 35px !important;
+        font-weight: 700 !important;
+        text-align: center;
+        padding: 1.2em 1.2em 0em 1.2em ;
+    } }
+.card {
+    margin: 1.5em;
+}
+@media (max-width: 991px){
+    .card {
+        margin-top: 1em;
+    } }
+
+.card-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+.card-text {
+    font-size: 16px;
+}
+.list-group-item {
+    font-size: 11px;
+}
+.card-link {
+    font-size: 11px;
+    text-decoration: none;
+}
+.mediosPago {
+    height: 170px;
+    background-color: #17A2B8 !important;
+}
+
+.mediosPago h2 {
+    margin: 0;
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 1.5em;
+    left: 4em;
+    width: 50%;
+} 
+
+@media (max-width: 991px) {
+    .mediosPago{
+        display: none;}
+    }
+
+.tarjetas {
+    position: relative;
+    left: 40vw;
+    max-width: 50%;
+}
+
+.tarjetas i {
+    color: white;
+    font-size: 70px;
+    margin: 0 15px;
+}
+
+.final {
+    background-color:#e83e8c ;
+    height: 184px;
+    max-height: 100%;
+}
+
+.final img {
+    height: 100px;
+    width: 53px;
+    display: flex;
+    margin:  0 auto;
+    position: relative;
+    top: 20%;
+}
